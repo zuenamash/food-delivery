@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="About.css">
+    
+</head>
+<body>
+    <header>
+        <h1 id="top">Online</h1>
+        <h1 id="top1">FoodShop</h1>
+    </header>
+    <hr>
+    <nav id="navbar">
+        <ul id="navcontent">
+            <li><a href="Food.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <!-- <li><a href="">ContactUs</a></li> -->
+        </ul>
+    </nav>
+    <div id="ContactUs">
+        <div class="head">
+        <h1>Contact Us</h1>
+    </div>
+        <form action="#">
+            <div class="form-shape">
+                <label for="problem">
+                    Type of Problem.
+                </label>
+                <select name="myIssues" id="Issues">
+                    <option value="sel" selected>
+                        Select
+                    </option>
+                    <option value="ord">
+                        Order related Issues
+                    </option>
+                    <option value="Site">
+                        Site related Issues
+                    </option>
+                    <option value="fed">
+                        Complaint related Issues
+                    </option>
+                    <option value="others">
+                        Others
+                    </option>
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="name">Name</label>
+                <input type="text" name="myName" 
+                    id="name" 
+                    placeholder="Enter your Name">
+            </div>
+            <div class="form-shape">
+                <label for="email">Email</label>
+                <input type="email" name="myEmail" 
+                    id="email" 
+                    placeholder="Enter your email">
+            </div>
+            <div class="form-shape">
+                <label for="pho">Phone Number</label>
+                <input type="phone" name="myPhone" 
+                    id="pho" 
+                    placeholder="Enter your Phone no">
+            </div>
+            <div id="radio">
+                Are you a member of OnlneFoodShop:
+                Yes <input type="radio" name="eligible">
+                No <input type="radio" name="eligible">
+            </div>
+            <div class="form-shape">
+                <label for="message">
+              Pin your problem here and get help.
+                </label>
+                <textarea name="mesg" id="message" 
+                    cols="20" rows="10">
+                </textarea>
+            </div>
+            <div class="btn">
+                <button>
+            <input type="submit" value="Submit">
+            <input type="Cancel" value="Cancel">
+        </button>
+            </div>
+        </form>
+        <button>
+        <li><a href="Food.html">Go Home</a></li>
+        </button>
+    </div>
+    <div class="panel">
+     <div class="img">
+     <img src="mall.jpg" alt="" width="500px" height="500px">
+     </div>
+    </div>
+    <footer>Copyright © 2022-2030 Sunguch OnlineFoodShop.
+        All Rights are reserved</footer> 
+</body>
+</html>

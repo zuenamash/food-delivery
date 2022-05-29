@@ -1,0 +1,104 @@
+#top{
+    color: aqua;
+    text-align: center;
+    font-size: 46px;
+    font-family: Ubuntu monospace;
+}
+#top1{
+    text-align: center;
+    font-size: 28px;
+}
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:rgb(3, 3, 3);
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color: rgb(11, 230, 219);
+    border-radius: 10px;
+}
+#ContactUs{
+    width:40vw;
+    height:110vh;
+    display:flex;
+    margin: 9.2%;
+    margin-top: -0%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(178, 19, 241);
+}
+.head{
+    font-size: 40px;
+    color: rgb(21, 206, 197);
+}
+.form-shape{
+    font-size: 29px;
+    color: rgb(108, 236, 57);
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+   width: 92%;
+   padding: 0.5rem;
+   border: solid blue 50%;
+}
+::placeholder{                  
+    color:rgb(30, 199, 53);
+    font-size: 25px;
+}
+.btn button{
+        font-size: 36px; 
+        background-color: blue;
+    border-radius: 70px;
+    font-size: 30px;
+    color: white;
+}  
+    
+#navbar{
+        height:10vh;
+    }
+#container1::before{
+        height:0vh;
+    }
+#container1{
+        height:44vh
+    }
+.panel{
+
+    width:40vw;
+    height:110vh;
+    margin-left: 50%;
+     margin-top: -61.7%; 
+    align-items: center; 
+    background-color: rgb(178, 19, 241);
+}
+.panel h3{
+    font-size: 26px;
+    margin: 20%;
+    
+}
+.img{
+    margin-left: 10%;
+    margin-top: -15%;
+    
+    
+}
+button{
+    background-color: rgb(35, 45, 180);
+    border-radius: 70px;
+    color: white;
+    font-size: 30px;
+}
+.fotter{
+    font-weight:lighter ;
+    text-align: center;
+    margin-left: 40%;
+}
